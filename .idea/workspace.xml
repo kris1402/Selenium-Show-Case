@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06c4431c-ef2d-4096-989b-c2f7ca3278ae" name="Changes" comment="FirstCommit">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="06c4431c-ef2d-4096-989b-c2f7ca3278ae" name="Changes" comment="SecondCommit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/comarch/selenium/showcase/Task3PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/comarch/selenium/showcase/Task7Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/comarch/selenium/showcase/pages/Task3Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/comarch/selenium/showcase/pages/Task7Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/comarch/selenium/showcase/Task3Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/comarch/selenium/showcase/Task3Simple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,30 +34,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="selenium-open-case" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="selenium-open-case" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="selenium-open-case" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="selenium-open-case" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-                <item name="org.junit.jupiter:junit-jupiter-api:5.8.1" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="selenium-open-case" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -92,16 +70,17 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "settings.editor.selected.configurable": "editing.templates"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.comarch.selenium.showcase.pages" />
       <recent name="com.comarch.selenium.showcase" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Task3Simple.editPersonalData">
-    <configuration name="FirstTest.shouldOpenBrowser (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Task7Test.checkIfItemsAddedShouldCountProductsBasket">
+    <configuration name="Task3PageObject.shouldEditPersonalData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -114,7 +93,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.comarch.selenium.showcase.FirstTest.shouldOpenBrowser&quot;" />
+            <option value="&quot;com.comarch.selenium.showcase.Task3PageObject.shouldEditPersonalData&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -124,7 +103,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Task3Simple.editPersonalData" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Task7Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +116,76 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.comarch.selenium.showcase.Task3Simple.editPersonalData&quot;" />
+            <option value="&quot;com.comarch.selenium.showcase.Task7Test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Task7Test.checkIfItemsAddedShouldCountProductsBasket" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.comarch.selenium.showcase.Task7Test.checkIfItemsAddedShouldCountProductsBasket&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Task7Test.moveItemAndAddByButtonShouldCountProductsBasket" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.comarch.selenium.showcase.Task7Test.moveItemAndAddByButtonShouldCountProductsBasket&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Task7Test.shouldCountProductsBasket" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.comarch.selenium.showcase.Task7Test.shouldCountProductsBasket&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,8 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Task3Simple.editPersonalData" />
-        <item itemvalue="Gradle.FirstTest.shouldOpenBrowser (1)" />
+        <item itemvalue="Gradle.Task7Test.checkIfItemsAddedShouldCountProductsBasket" />
+        <item itemvalue="Gradle.Task7Test.moveItemAndAddByButtonShouldCountProductsBasket" />
+        <item itemvalue="Gradle.Task7Test" />
+        <item itemvalue="Gradle.Task7Test.shouldCountProductsBasket" />
+        <item itemvalue="Gradle.Task3PageObject.shouldEditPersonalData" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +214,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656921734799</updated>
     </task>
+    <task id="LOCAL-00001" summary="SecondCommit">
+      <created>1657006188640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657006188640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +234,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SecondCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="SecondCommit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
