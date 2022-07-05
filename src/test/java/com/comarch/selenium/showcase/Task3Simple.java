@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.io.File;
+
 public class Task3Simple extends AbstractTest{
 
     public static final By CSS_SELECTOR = By.cssSelector(".nav [data-toggle=\"dropdown\"]");
@@ -21,8 +23,9 @@ public class Task3Simple extends AbstractTest{
         WebElement surnameInput = driver.findElement(By.id("in-surname"));
         surnameInput.clear();
         surnameInput.sendKeys("Snow");
-        driver.findElement(By.id("in-file")).click();
-        //driver.findElement(By.cssSelector("input[accept='image/x-png, image/gif, image/jpeg']")).
-
+        //driver.findElement(By.id("in-file")).click();
+        //driver.findElement(By.id("in-file")).sendKeys("C:\\Users\\Krzysztof\\OneDrive\\Pulpit");
+        driver.findElement(By.id("in-file")).sendKeys(new File("src/test/resources/Deamony.png").getAbsolutePath());
+        driver.findElement(By.id("save-btn")).click();
     }
 }
